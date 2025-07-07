@@ -1,46 +1,53 @@
-﻿using System;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Collections.Generic;
-using System.Collections;
-
-int[][] test = [[2, 3], [3, 4], [1, 3], [7, 8], [1, 2], [1, 2]];
-
-Array.Sort(test, (x, y) => x[0].CompareTo(y[0]));
-
-foreach (var arr in test) foreach (var item in arr) Console.WriteLine(item);
-
-Solution sol = new Solution();
-
-sol.GetRow(3);
-
-public class Solution
+﻿public class Solution
 {
-    public IList<int> GetRow(int rowIndex)
+    public int MaxEvents(int[][] events)
     {
-        if (rowIndex == 0)
+        events = events.OrderBy(x => x[0]).ThenBy(x => x[1]).ToArray();
+        var minHeap = new PriorityQueue<int[], int>();
+        //foreach (var arr in events) foreach (var item in arr) Console.WriteLine(item);
+        int latestEvent = events[0][1];
+        int earliestEvent = events[0][0];
+        int maxEvents = 0;
+        foreach (var arr in events)
         {
-            return [1];
-        }
-        IList<int> prevRow = GetRow(rowIndex - 1);
-        IList<int> thisRow = new List<int>();
-        for (int i = 0; i <= rowIndex; i++)
-        {
-            if (i == 0)
+            if (arr[0] < earliestEvent)
             {
-                thisRow.Add(1);
+                earliestEvent = arr[0];
             }
-            else if (i == rowIndex)
+            if (arr[1] > latestEvent)
             {
-                thisRow.Add(1);
-            }
-            else
-            {
-                Console.WriteLine($"i = {i}, prevRow.Count = {prevRow.Count}");
-                thisRow.Add(prevRow[i - 1] + prevRow[i]);
+                latestEvent = arr[1];
             }
         }
-        return thisRow;
+        int i = 0;
+        while (earliestEvent <= latestEvent)
+        {
+            while (i < events.Length)
+            {
+                if (events[i][0] == earliestEvent)
+                {
+                    Console.WriteLine($"Enqueuing [{events[i][0]}, {events[i][1]}]");
+                    minHeap.Enqueue(events[i], events[i][1]);
+                    i++;
+                }
+                else
+                {
+                    break;
+                }
+            }
+            while (minHeap.Count != 0 && minHeap.Peek()[1] < earliestEvent)
+            {
+                Console.WriteLine($"Cannot visit, dequeueing [{minHeap.Peek()[0]}, {minHeap.Peek()[1]}]");
+                minHeap.Dequeue();
+            }
+            if (minHeap.Count != 0 && minHeap.Peek()[1] >= earliestEvent)
+            {
+                minHeap.Dequeue();
+                maxEvents++;
+            }
+            earliestEvent++;
+        }
+        //Console.WriteLine(earliestEvent + " " + latestEvent);
+        return maxEvents;
     }
 }
