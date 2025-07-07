@@ -6,7 +6,7 @@ public class Solution {
     public int MinOperations(int[][] grid, int x) {
         int n = grid.Length;
         int m = grid[0].Length;
-        int operations = 0;
+        //int operations = 0;
         int[] flatGrid = new int[n * m];
         int flatIdx = 0;
         for (int i = 0; i < n; i++)
@@ -19,26 +19,15 @@ public class Solution {
         }
         Array.Sort(flatGrid);
         int median = flatGrid[flatGrid.Length / 2];
-        for (int i = 0; i < flatGrid.Length; i++)
+        int diffSum = 0;
+        foreach (int i in flatGrid)
         {
-            if (flatGrid[i] % x != median % x)
+            if (i % x != median % x)
             {
                 return -1;
             }
-            while (flatGrid[i] != median)
-            {
-                if (flatGrid[i] < median)
-                {
-                    flatGrid[i] += x;
-                    operations++;
-                }
-                else
-                {
-                    flatGrid[i] -= x;
-                    operations++;
-                }
-            }
+            diffSum += Math.Abs(median - i);
         }
-        return operations;
+        return diffSum / x;
     }
 }
