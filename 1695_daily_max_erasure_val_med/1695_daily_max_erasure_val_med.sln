@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1695_daily_max_erasure_val_med", "1695_daily_max_erasure_val_med.csproj", "{9350203E-29C5-4701-9EC3-2FC34ADDF2BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9350203E-29C5-4701-9EC3-2FC34ADDF2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9350203E-29C5-4701-9EC3-2FC34ADDF2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9350203E-29C5-4701-9EC3-2FC34ADDF2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9350203E-29C5-4701-9EC3-2FC34ADDF2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {394CF575-662C-4165-BEA1-5EBB6575B4C2}
+	EndGlobalSection
+EndGlobal
