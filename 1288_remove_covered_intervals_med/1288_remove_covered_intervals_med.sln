@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1288_remove_covered_intervals_med", "1288_remove_covered_intervals_med.csproj", "{15469A40-83BF-4D29-A92C-F1D796402970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15469A40-83BF-4D29-A92C-F1D796402970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15469A40-83BF-4D29-A92C-F1D796402970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15469A40-83BF-4D29-A92C-F1D796402970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15469A40-83BF-4D29-A92C-F1D796402970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {223919B5-D00F-4373-B74F-B9DE387B5E3E}
+	EndGlobalSection
+EndGlobal
