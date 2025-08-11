@@ -7,9 +7,6 @@
 
 public class Solution
 {
-
-    private IList<IList<int>> triangle = [];
-
     public IList<IList<int>> Generate(int numRows)
     {
         var triangle = new List<IList<int>>();
