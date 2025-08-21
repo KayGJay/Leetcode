@@ -1,28 +1,26 @@
 ﻿//Not done yet, have to handle most sig dig being 9
 
-Console.WriteLine(new Solution().MaxDiff(123456));
+Console.WriteLine(new Solution().MaxDiff(9288));
 
 public class Solution
 {
     public int MaxDiff(int num)
     {
         string numStr = num.ToString();
-        char num1 = numStr[0];
-        char num2;
-        int i = 1;
+        char minChar = numStr[0];
+        if (numStr.Length == 1)
+            return 8;
         if (numStr[0] == '1')
         {
-            while (numStr[i] == '1')
+            int i = 0;
+            while (i < numStr.Length - 1 && numStr[i] == '1')
             {
                 i++;
             }
-            num2 = numStr[i];
+            minChar = numStr[i];
         }
-        else
-            num2 = num1;
-        Console.WriteLine(num1 + " " + num2);
-        int max = int.Parse(numStr.Replace(num1, '9'));
-        int min = num2 == num1 ? int.Parse(numStr.Replace(num2, '1')) : int.Parse(numStr.Replace(num2, '0'));
+        int max = int.Parse(numStr.Replace(numStr[0], '9'));
+        int min = minChar == '1' && minChar == numStr[0] ? int.Parse(numStr) : minChar != numStr[0] ? int.Parse(numStr.Replace(minChar, '0')) : int.Parse(numStr.Replace(minChar, '1'));
         return max - min;
     }
 }
