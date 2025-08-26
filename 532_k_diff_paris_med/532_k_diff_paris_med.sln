@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "532_k_diff_paris_med", "532_k_diff_paris_med.csproj", "{80AC4867-2675-4AB1-B5C0-F26EA0B37B53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80AC4867-2675-4AB1-B5C0-F26EA0B37B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AC4867-2675-4AB1-B5C0-F26EA0B37B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AC4867-2675-4AB1-B5C0-F26EA0B37B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AC4867-2675-4AB1-B5C0-F26EA0B37B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F78BFC70-8866-4ADC-8DDF-573413565471}
+	EndGlobalSection
+EndGlobal
