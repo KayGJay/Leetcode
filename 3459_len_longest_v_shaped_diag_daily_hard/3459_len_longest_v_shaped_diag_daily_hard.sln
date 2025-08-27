@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3459_len_longest_v_shaped_diag_daily_hard", "3459_len_longest_v_shaped_diag_daily_hard.csproj", "{DBE332C3-791A-4BF3-9EE0-1224A8BD0741}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBE332C3-791A-4BF3-9EE0-1224A8BD0741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE332C3-791A-4BF3-9EE0-1224A8BD0741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE332C3-791A-4BF3-9EE0-1224A8BD0741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE332C3-791A-4BF3-9EE0-1224A8BD0741}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24DB1315-A4E9-43B4-834C-7D0BB02B6646}
+	EndGlobalSection
+EndGlobal
