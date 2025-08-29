@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3446_sort_mat_by_diag_daily_med", "3446_sort_mat_by_diag_daily_med.csproj", "{EA00FEDE-9D3E-40A7-BB2A-C9E6D7D83A4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA00FEDE-9D3E-40A7-BB2A-C9E6D7D83A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA00FEDE-9D3E-40A7-BB2A-C9E6D7D83A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA00FEDE-9D3E-40A7-BB2A-C9E6D7D83A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA00FEDE-9D3E-40A7-BB2A-C9E6D7D83A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96AC5DDD-744B-456D-96DA-7CCACFE70DC0}
+	EndGlobalSection
+EndGlobal
