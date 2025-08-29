@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2007_find_orig_arr_from_doub_arr_med", "2007_find_orig_arr_from_doub_arr_med.csproj", "{1D9E56EA-15C1-4039-B1BF-A19BFD059CEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D9E56EA-15C1-4039-B1BF-A19BFD059CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9E56EA-15C1-4039-B1BF-A19BFD059CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9E56EA-15C1-4039-B1BF-A19BFD059CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9E56EA-15C1-4039-B1BF-A19BFD059CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17BA28C2-0FCD-40C3-91F5-14AF7875B23D}
+	EndGlobalSection
+EndGlobal
