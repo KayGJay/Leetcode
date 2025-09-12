@@ -1,5 +1,7 @@
 ﻿Console.WriteLine(new Solution().SortVowels("lEetcOde"));
 
+Console.WriteLine(Int32.MaxValue);
+
 public class Solution
 {
     public string SortVowels(string s)
