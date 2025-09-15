@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "966_vowel_spellcheck_med", "966_vowel_spellcheck_med.csproj", "{EAC32D7F-D6A7-48DE-90C5-A683BDB0633B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAC32D7F-D6A7-48DE-90C5-A683BDB0633B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC32D7F-D6A7-48DE-90C5-A683BDB0633B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC32D7F-D6A7-48DE-90C5-A683BDB0633B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC32D7F-D6A7-48DE-90C5-A683BDB0633B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBA636CC-4B69-4D60-9D4B-23F68D72C2AC}
+	EndGlobalSection
+EndGlobal
