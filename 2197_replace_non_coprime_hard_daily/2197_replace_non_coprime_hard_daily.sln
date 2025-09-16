@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2197_replace_non_coprime_hard_daily", "2197_replace_non_coprime_hard_daily.csproj", "{FBED54F3-9F51-43FF-BF46-DE748E6A6485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBED54F3-9F51-43FF-BF46-DE748E6A6485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBED54F3-9F51-43FF-BF46-DE748E6A6485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBED54F3-9F51-43FF-BF46-DE748E6A6485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBED54F3-9F51-43FF-BF46-DE748E6A6485}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {821E074F-D8F6-4616-9653-1EA42E1C3659}
+	EndGlobalSection
+EndGlobal
