@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1577_num_ways_square_eq_prod_two_nums_med", "1577_num_ways_square_eq_prod_two_nums_med.csproj", "{250E13E3-5A8E-4546-AB40-17B84FD7B558}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{250E13E3-5A8E-4546-AB40-17B84FD7B558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250E13E3-5A8E-4546-AB40-17B84FD7B558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250E13E3-5A8E-4546-AB40-17B84FD7B558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250E13E3-5A8E-4546-AB40-17B84FD7B558}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {861E7F52-9F94-4142-B694-8B141F72F6E6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+﻿Console.WriteLine((long)-100000 * 100000);
